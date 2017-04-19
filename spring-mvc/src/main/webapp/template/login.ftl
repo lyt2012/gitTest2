@@ -24,8 +24,8 @@
     </div>
 </form>
 <#include "/include/footer.ftl">
-<script type="text/javascript" src="/js/md5.js"></script>
-<script type="text/javascript" src="/js/global.js"></script>
-<script type="text/javascript" src="/js/pageLogin.js"></script>
+<script type="text/javascript" src="/spring-mvc/js/md5.js"></script>
+<script type="text/javascript" src="/spring-mvc/js/global.js"></script>
+<script type="text/javascript" src="/spring-mvc/js/pageLogin.js"></script>
 </body>
 </html>

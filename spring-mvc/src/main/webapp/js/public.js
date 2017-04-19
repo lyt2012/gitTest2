@@ -56,7 +56,7 @@
 		            form.enctype = "multipart/form-data";
 
 		            var xhr = new XMLHttpRequest();
-		            xhr.open("post", "/api/upload", true);
+		            xhr.open("post", "/spring-mvc/api/upload", true);
 		            xhr.onload = function () {
 		            	  if (xhr.status === 200) {
 		            	    alert("文件上传成功");

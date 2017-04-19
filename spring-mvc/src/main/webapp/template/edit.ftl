@@ -13,7 +13,7 @@
     </div>
     <#else>
     <div class="n-public">
-        <form class="m-form m-form-ht" id="form" method="post" action="/editSubmit?id=${product.id}" onsubmit="return false;" autocomplete="off">
+        <form class="m-form m-form-ht" id="form" method="post" action="/spring-mvc/editSubmit?id=${product.id}" onsubmit="return false;" autocomplete="off">
             <div class="fmitem">
                 <label class="fmlab">标题：</label>
                 <div class="fmipt">
@@ -67,7 +67,7 @@
     </#if>
 </div>
 <#include "/include/footer.ftl">
-<script type="text/javascript" src="/js/global.js"></script>
-<script type="text/javascript" src="/js/public.js"></script>
+<script type="text/javascript" src="/spring-mvc/js/global.js"></script>
+<script type="text/javascript" src="/spring-mvc/js/public.js"></script>
 </body>
 </html>

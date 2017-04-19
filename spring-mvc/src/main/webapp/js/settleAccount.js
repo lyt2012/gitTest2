@@ -87,7 +87,7 @@
 				                }
 				            }
 					};
-					 xhr.open('post','/api/buy');
+					 xhr.open('post','/spring-mvc/api/buy');
 					 xhr.setRequestHeader('Content-Type','application/json');
 					 xhr.send(data);
 				}.bind(this)
